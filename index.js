@@ -51,8 +51,8 @@ Person.prototype.eat = function(someFood) {
   }
 }
 
-Person.prototype.poop = function empty() {
-  this.stomach [];
+Person.prototype.poop = function(someFood) {
+  this.stomach.length = 0;
 }
 
 Person.prototype.toString = function(someFood) {
